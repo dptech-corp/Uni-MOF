@@ -38,6 +38,49 @@ There are total 6 datasets:
 | gas adsorption property      | GB   | May 10 2023 |          |
 | material structural property | GB   | May 10 2023 |                |
 
+We use [LMDB](https://lmdb.readthedocs.io) to store data, you can use the following code snippets to read from the LMDB file.
+
+```python
+import lmdb
+import numpy as np
+import os
+import pickle
+
+def read_lmdb(lmdb_path):
+    env = lmdb.open(
+        lmdb_path,
+        subdir=False,
+        readonly=True,
+        lock=False,
+        readahead=False,
+        meminit=False,
+        max_readers=256,
+    )
+    txn = env.begin()
+    keys = list(txn.cursor().iternext(values=False))
+    for idx in keys:
+        datapoint_pickled = txn.get(idx)
+        data = pickle.loads(datapoint_pickled)
+```
+We use pickle protocol 5, so Python >= 3.8 is recommended.
+
+Uni-Mol's pretrained model weights
+----------------------------------
+
+| Model                     | File Size  |Update Date | Download Link                                                | 
+|--------------------------|------------| ------------|--------------------------------------------------------------|
+| nanoporous material pretrain   | MB   | May 10 2023 |https://github.com/dptech-corp/Uni-MOF/releases/download/     |
+
+
+Uni-Mol's finetuned model weights
+----------------------------------
+
+| Model                                           | File Size| Update Date| Download Link                                                     | 
+|-------------------------------------------------|---------| -----------|--------------------------------------------------------------------|
+| hMOF_MOFX_DB         | MB   | May 10 2023 |https://github.com/dptech-corp/Uni-MOF/releases/download    |
+| CoRE_MOFX_DB       | MB   | May 10 2023 |https://github.com/dptech-corp/Uni-Mol/releases/download  |
+| CoRE_MAP_DB          | MB   | May 10 2023 |https://github.com/dptech-corp/Uni-Mol/releases/download      |
+
 
 Citation
 --------
