@@ -24,6 +24,21 @@ Uni-MOF is an innovative framework for large-scale, three-dimensional MOF repres
 
 Check this [subfolder](./unimof/) for more detalis.
 
+Uni-MOF's data 
+------------------------------
+
+For the details of datasets, please refer to Table 1 in our [paper](https://chemrxiv.org/engage/chemrxiv/article-details/6447d756e4bbbe4bbf3afeaa).
+
+There are total 6 datasets:
+
+
+| Data                     | File Size  | Update Date | Download Link                                                                                                             | 
+|--------------------------|------------| ----------- |---------------------------------------------------------------------------------------------------------------------------|
+| nanoporous material pretrain | GB   | May 10 2023 |                                |
+| gas adsorption property      | GB   | May 10 2023 |          |
+| material structural property | GB   | May 10 2023 |                |
+
+
 Citation
 --------
 
