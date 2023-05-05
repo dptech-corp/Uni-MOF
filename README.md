@@ -1,15 +1,6 @@
 Official Repository for the Uni-MOF Series Methods
 ==================================================
 
-Shortcuts
----------
-
-- [Uni-MOF](./unimof/)
-
-
-**Note**: if you want to install or run our codes, please `cd` to subfolders first.
-
-
 Uni-MOF: A Universal 3D Material Representation Learning Framework for Gas Adsorption in MOFs
 -------------------------------------------------------------------
 
