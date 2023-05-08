@@ -1,7 +1,8 @@
 Official Repository for the Uni-MOF Series Methods
 ==================================================
 
-Uni-MOF: A Universal 3D Material Representation Learning Framework for Gas Adsorption in MOFs
+<!-- Uni-MOF: A Universal 3D Material Representation Learning Framework for Gas Adsorption in MOFs -->
+Metal-organic frameworks meet Uni-MOF: a transformer-based gas adsorption detector
 -------------------------------------------------------------------
 
 [[Paper](https://chemrxiv.org/engage/chemrxiv/article-details/6447d756e4bbbe4bbf3afeaa)], <a href="https://bohrium.dp.tech/notebook/cca98b584a624753981dfd5f8bb79674" target="_parent"><img src="https://cdn.dp.tech/bohrium/web/static/images/open-in-bohrium.svg" alt="Open In Bohrium"/></a>
