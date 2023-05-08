@@ -13,6 +13,8 @@ Authors: Jingqi Wang, Jiapeng Liu, Hongshuai Wang, Guolin Ke, Linfeng Zhang, Jia
 
 Uni-MOF is an innovative framework for large-scale, three-dimensional MOF representation learning, designed for universal multi-gas prediction.  Specifically, Uni-MOF serves as a versatile "gas adsorption detector" for MOF materials, employing pure three-dimensional representations learned from over 631,000 collected MOF and COF structures.  Our experimental results show that Uni-MOF can automatically extract structural representations and predict adsorption capacities under various operating conditions using a single model.  For simulated data, Uni-MOF exhibits remarkably high predictive accuracy across all datasets.  Impressively, the values predicted by Uni-MOF correspond with the outcomes of adsorption experiments.  Furthermore, Uni-MOF demonstrates considerable potential for broad applicability in predicting a wide array of other properties.
 
+Uni-MOF's data
+------------------------------
 Code and model weights will be released soon.
 
 <!-- Uni-MOF's data 
