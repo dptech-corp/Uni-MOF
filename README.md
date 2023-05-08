@@ -1,7 +1,7 @@
 Official Repository for the Uni-MOF Series Methods
 ==================================================
 
-<!-- Metal-organic frameworks meet Uni-MOF: a transformer-based gas adsorption detector -->
+<!-- Metal-organic frameworks meet Uni-MOF: a revolutionary gas adsorption detector -->
 Uni-MOF: A Universal 3D Material Representation Learning Framework for Gas Adsorption in MOFs
 -------------------------------------------------------------------
 
