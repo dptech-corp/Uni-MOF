@@ -18,7 +18,7 @@ Uni-MOF is an innovative framework for large-scale, three-dimensional MOF repres
 
 Uni-MOF's data
 ------------------------------
-Code and model weights will be released soon.
+Code and model weights will be released continuously.
 
 <!-- Uni-MOF's data 
 ------------------------------
