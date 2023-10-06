@@ -232,8 +232,8 @@ Single-system Gas Adsorption Property Prediction
 The prediction of MOF structural feature could be taken as demo. It may take 4 hours to obtain the best model performance [coefficient of determination (R2)] for the test set.
 | File                                           | File Size| Update Date| Download Link                                                     | 
 |-------------------------------------------------|---------| -----------|--------------------------------------------------------------------|
-| Data         |304 MB   | May 10 2023 |https://github.com/dptech-corp/Uni-MOF/releases/download/v0.1/MOF_structure_data.zip|
-| Weight       |304 MB   | May 10 2023 |https://github.com/dptech-corp/Uni-MOF/releases/download/v0.1/CoRE_PLD_bset.pt|
+| Data         |5.77 MB   | May 10 2023 |https://github.com/dptech-corp/Uni-MOF/releases/download/v0.1/MOF_structure_data.zip|
+| Weight       |303 MB   | May 10 2023 |https://github.com/dptech-corp/Uni-MOF/releases/download/v0.1/CoRE_PLD_bset.pt|
 ```
 data_path="./single-system_gas_adsorption_property_prediction"  # replace to your data path
 save_dir="./save_finetune"  # replace to your save path
