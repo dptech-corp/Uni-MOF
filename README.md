@@ -20,6 +20,18 @@ Uni-MOF's data
 ------------------------------
 Code and model weights will be released continuously.
 
+
+Dependencies
+------------
+ - [Uni-Core](https://github.com/dptech-corp/Uni-Core), check its [Installation Documentation](https://github.com/dptech-corp/Uni-Core#installation).
+
+To use GPUs within docker you need to [install nvidia-docker-2](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker) first. Use the following command to pull the docker image:
+
+```bash
+docker pull dptechnology/unimol:latest-pytorch1.11.0-cuda11.3
+```
+
+
 <!-- Uni-MOF's data 
 ------------------------------
 
