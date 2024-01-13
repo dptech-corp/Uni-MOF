@@ -30,7 +30,14 @@ To use GPUs within docker you need to [install nvidia-docker-2](https://docs.nvi
 ```bash
 docker pull dptechnology/unimol:latest-pytorch1.11.0-cuda11.3
 ```
+The instruction to setup the code requirement permission is due to the Nvidia Container Toolkit installation. The NVIDIA Container Toolkit allows us to run GPU accelerated programs. From the Nvidia official document (https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html), there are several reasons why root access is required:
+(1) NVIDIA Container Toolkit installation: The NVIDIA Container Toolkit involves configuring system services and kernel modules, which require root access to modify.
+(2) NVIDIA-Docker Configuration: The Docker daemon configuration must be updated to include the ‘nvidia-container-runtime’ as a default runtime, which requires writing to system directories that are typically not writable by non-root users.
+(3) Kernel Modules: Loading the necessary NVIDIA kernel modules (such as ‘nvidia.ko’, ‘nvidia-uvm.ko’, etc.) often requires root access.
 
+If you want to use our software without the NVIDIA root permissions, there are two solutions:
+(1) You can use cloud platforms like CoLab and Borihum.
+(2) The software supports the CPU version. For details, see [Uni-Core of the CPU version](https://github.com/dptech-corp/Uni-Core#installation).
 
 Uni-MOF's data 
 ------------------------------
