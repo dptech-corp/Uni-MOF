@@ -1,4 +1,4 @@
-Uni-MOF：A comprehensive transformer-based approach for high-accuracy gas adsorption predictions in metal-organic frameworks
+Uni-MOF
 ==================================================
 
 <!-- Uni-MOF: A Universal 3D Material Representation Learning Framework for Gas Adsorption in MOFs -->
