@@ -1,15 +1,12 @@
-Official Repository for the Uni-MOF Series Methods
+Uni-MOF：A comprehensive transformer-based approach for high-accuracy gas adsorption predictions in metal-organic frameworks
 ==================================================
 
 <!-- Uni-MOF: A Universal 3D Material Representation Learning Framework for Gas Adsorption in MOFs -->
-Metal-organic frameworks meet Uni-MOF: a revolutionary gas adsorption detector
--------------------------------------------------------------------
+Uni-MOF: A comprehensive transformer-based approach for high-accuracy gas adsorption predictions in metal-organic frameworks
 
-[[Paper](https://chemrxiv.org/engage/chemrxiv/article-details/6447d756e4bbbe4bbf3afeaa)]
+*Nature Communications* [[paper](https://www.nature.com/articles/s41467-024-46276-x)][[arXiv](https://chemrxiv.org/engage/chemrxiv/article-details/6447d756e4bbbe4bbf3afeaa)]<a href="https://bohrium.dp.tech/notebook/cca98b584a624753981dfd5f8bb79674" target="_parent"><img src="https://cdn.dp.tech/bohrium/web/static/images/open-in-bohrium.svg" alt="Open In Bohrium"/></a>
 
-<a href="https://bohrium.dp.tech/notebook/cca98b584a624753981dfd5f8bb79674" target="_parent"><img src="https://cdn.dp.tech/bohrium/web/static/images/open-in-bohrium.svg" alt="Open In Bohrium"/></a>
-
-Authors: Jingqi Wang, Jiapeng Liu, Hongshuai Wang, Guolin Ke, Linfeng Zhang, Jianzhong Wu, Zhifeng Gao, Diannan Lu
+Authors: Jingqi Wang*, Jiapeng Liu*, Hongshuai Wang, Musen Zhou, Guolin Ke, Linfeng Zhang, Jianzhong Wu, Zhifeng Gao, Diannan Lu (*equal contribution)
 
 <p align="center"><img src="unimof/figure/overview_new.jpg" width=60%></p>
 <p align="center"><b>Schematic illustration of the Uni-MOF framework</b></p>
